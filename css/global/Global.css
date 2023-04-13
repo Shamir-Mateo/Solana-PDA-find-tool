@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+  height: 100%;
+  margin: 0px;
+}
+
+html {
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+.buttonPlain {
+  background-color: var(--color-tertiary);
+  border-radius: 8px;
+  border: 1px solid var(--color-secondary);
+  padding: 4px 12px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.buttonPlain:hover {
+  cursor: pointer;
+}
+
+/* See https://stackoverflow.com/questions/1833734/display-inline-block-extra-margin/8262649#8262649 */
+.hideText {
+  color: transparent;
+  display: block;
+  font-size: 0;
+  line-height: 0;
+}
+
+.input {
+  padding: 4px 12px;
+}
+
+.firstColumn {
+  border-left: none !important;
+}
